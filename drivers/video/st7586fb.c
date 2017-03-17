@@ -102,6 +102,8 @@ static struct fb_var_screeninfo st7586fb_var = {
 	.xres_virtual	= WIDTH,
 	.yres_virtual	= HEIGHT,
 	.bits_per_pixel	= 1,
+	.width		= 37,
+	.height		= 27,
 };
 
 static int st7586_write(struct st7586fb_par *par, u8 data)
