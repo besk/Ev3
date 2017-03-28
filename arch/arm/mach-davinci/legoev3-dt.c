@@ -68,7 +68,7 @@ static struct platform_device legoev3_in_port_i2c_fiq = {
 };
 
 static struct i2c_legoev3_platform_data legoev3_i2c3_data = {
-	.sda_pin	= EV3_IN1_PIN5_PIN,
+	.sda_pin	= EV3_IN1_PIN6_PIN,
 	.scl_pin	= EV3_IN1_I2C_CLK_PIN,
 	.port_id	= EV3_PORT_IN1,
 };
@@ -82,7 +82,7 @@ static struct platform_device legoev3_i2c3_device = {
 };
 
 static struct i2c_legoev3_platform_data legoev3_i2c4_data = {
-	.sda_pin	= EV3_IN2_PIN5_PIN,
+	.sda_pin	= EV3_IN2_PIN6_PIN,
 	.scl_pin	= EV3_IN2_I2C_CLK_PIN,
 	.port_id	= EV3_PORT_IN2,
 };
@@ -96,7 +96,7 @@ static struct platform_device legoev3_i2c4_device = {
 };
 
 static struct i2c_legoev3_platform_data legoev3_i2c5_data = {
-	.sda_pin	= EV3_IN3_PIN5_PIN,
+	.sda_pin	= EV3_IN3_PIN6_PIN,
 	.scl_pin	= EV3_IN3_I2C_CLK_PIN,
 	.port_id	= EV3_PORT_IN3,
 };
@@ -110,7 +110,7 @@ static struct platform_device legoev3_i2c5_device = {
 };
 
 static struct i2c_legoev3_platform_data legoev3_i2c6_data = {
-	.sda_pin	= EV3_IN4_PIN5_PIN,
+	.sda_pin	= EV3_IN4_PIN6_PIN,
 	.scl_pin	= EV3_IN4_I2C_CLK_PIN,
 	.port_id	= EV3_PORT_IN4,
 };
